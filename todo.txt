@@ -1,0 +1,68 @@
+
+
+===
+===
+
+Jekyll
+- Source: https://github.com/jekyll/jekyll/wiki/Sites
+- Example: http://danhixon.github.io/os.html
+- Example: http://vrepin.org/vr/index.html
+- Example: http://rogchap.com/
+
+Desiging layout for Jekyll
+- Home
+	- ?
+- About me
+	- Self explanatory
+- Projets
+	- Good idea. With a designated area, more will be produced.
+- Life. me
+	- Non tech related stuff. Again, this is better
+- Tech blogging
+	- Self explanatory
+- Changelog
+	- One page on how your maintaing your site, up/down time, domain migration, etc.
+
+Things to think about
+- Tagging
+	- 1 or more per page
+- Category
+	- Your top-level pages can be your category, e,g. life, tech blogging, projects, etc.
+- Date order
+- Dig your stuff out of your existing blogger sites and bring them here
+
+Things to write about
+- Tech
+	- API management
+	- Things that I learn
+	- Write a seried on a thing you are learning; tie them together for easy browing
+
+Promotion
+- Use your twitter
+- Link from LinkedIn and Stackoverflow
+
+
+===
+
+Goals for acheiving this
+
+1st round
++ (10 m) Use existing template. Preferrable start with Hyde. 
++ (15 m) Write a Hello World post. Write on how you built this site.
++ (5 m) Profit: Push to GH and enjoy!
+- (25 m) Write your first content. Put in the draft folder.
+
+2nd...n round
+- (30 m) Keep writing blogs
+
+Some round
+- If you want to use some other template, do so. Mention those changes in changelog. Also, attribute the people whose work helped you arrive here.
+
+===
+Steps
++ Removed my existing wahidsadik.github.io repo from GH
++ Forked this https://github.com/poole/hyde; renamed the repo to wahidsadik.github.io. I already have a Hyde based website at http://wahidsadik.github.io
++ My new repo is at: https://github.com/wahidsadik/wahidsadik.github.io
++ Removed my existing local clone of the site, and recloned it.
++ Editd the CNAME file to point to this: http://wahidsadik.github.io
++ Updated some of the builtin files, and pushed. Awesome.
