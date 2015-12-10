@@ -1,6 +1,7 @@
 ---
 layout: post
 title: I am using Hyde!
+tags: [tag1, tag2, tag3]
 ---
 
 Wow!! I am using Hyde!

@@ -66,3 +66,10 @@ Steps
 + Removed my existing local clone of the site, and recloned it.
 + Editd the CNAME file to point to this: http://wahidsadik.github.io
 + Updated some of the builtin files, and pushed. Awesome.
+
+// Remove gh-pages branch, which I do not need
+git checkout -t origin/gh-pages
+git checkout master
+git branch -D gh-pages
+git push origin --delete gh-pages
+
