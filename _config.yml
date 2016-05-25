@@ -1,26 +1,26 @@
 # Dependencies
-markdown:         redcarpet
-highlighter:      pygments
+markdown: kramdown
+highlighter: rouge
+gems: [jekyll-paginate, jekyll-gist]
 
 # Permalinks
-permalink:        pretty
-relative_permalinks: true
+permalink: pretty
 
 # Setup
-title:            Wahid's homepage
-tagline:          'All my stuff'
-description:      'Someday, this will be a million dollar blog :)'
-url:              http://wahidsadik.github.io/
-baseurl:          /
+title: Wahid's homepage
+tagline: 'All my stuff'
+description: 'Someday, this will be a million dollar blog :)'
+url: http://wahidsadik.github.io/
+baseurl: /
 
 author:
-  name:           'Wahid Sadik'
-  url:            https://twitter.com/wsadik
+  name: 'Wahid Sadik'
+  url: https://twitter.com/wsadik
 
-paginate:         5
+paginate: 5
 
 # Custom vars
-version:          0.0.1
+version: 0.0.1
 
 github:
-  repo:           https://github.com/wahidsadik/wahidsadik.github.io
+  repo: https://github.com/wahidsadik/wahidsadik.github.io
