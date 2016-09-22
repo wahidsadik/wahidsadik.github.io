@@ -12,6 +12,7 @@ tagline: 'All my stuff'
 description: 'Someday, this will be a million dollar blog :)'
 url: http://wahidsadik.github.io/
 baseurl: /
+excerpt_separator: <!--more-->
 
 author:
   name: 'Wahid Sadik'
