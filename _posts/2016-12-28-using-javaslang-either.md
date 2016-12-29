@@ -37,6 +37,7 @@ public class UsingEither {
 ````
 
 **Test**
+
 ````
 package com.wahid.javaslang.demo;
 
