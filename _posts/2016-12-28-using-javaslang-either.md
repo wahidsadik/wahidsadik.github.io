@@ -7,6 +7,9 @@ tags: [java8, functional]
 
 As more and more codebases are migrated to Java 8, I am taking advantage of functional approach. [Javaslang](http://www.javaslang.io/) adds to the power of Java's out-of-the-box capabilities. On of these features is [Either](http://static.javadoc.io/io.javaslang/javaslang/2.1.0-alpha/index.html?javaslang/control/Either.html).
 
+
+<!--more-->
+
 `Either` allows to a convenient way of returning two different types of responses from a method. There are `Either.right` and `Either.left`.
 
 Typical use case - Imagine a method returning some collection on success and an exception on error. We can substitute the exception part with an enum/String when we use `Either`. By convention, with `Either.right` refers to success.
