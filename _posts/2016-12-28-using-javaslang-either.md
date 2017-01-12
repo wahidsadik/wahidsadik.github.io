@@ -28,7 +28,7 @@ import javaslang.control.Either;
 
 public class UsingEither {
 
-  public Either<String, List<String>> soSomething(int param) {
+  public Either<String, List<String>> doSomething(int param) {
     if(param == 1) {
       return Either.right(Lists.newArrayList("got one"));
     } else {
@@ -58,12 +58,12 @@ public class UsingEitherTest {
 
   @Test
   public void testEither() {
-    Either<String, List<String>> either1 = underTest.soSomething(1);
+    Either<String, List<String>> either1 = underTest.doSomething(1);
     assertTrue(either1.isRight());
     assertTrue(either1.get() instanceof List);
     assertEquals("got one", either1.get().get(0));
 
-    Either<String, List<String>> either2 = underTest.soSomething(2);
+    Either<String, List<String>> either2 = underTest.doSomething(2);
     assertTrue(either2.isLeft());
     assertTrue(either1.get() instanceof String);
     assertEquals("param != 1", either2.getLeft());
