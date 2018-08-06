@@ -17,7 +17,7 @@ I've been actively using Docker and Kubernetes (k8s) at work for a while now. He
 - Use a repository. You can use [Gitlab Docker Registry](https://docs.gitlab.com/ee/user/project/container_registry.html), [portus](http://port.us.org/), etc.
 - Master docker commandline.
 
-# Kubernetes
+## Kubernetes
 
 - Use `minikube` locally to have a flavor of kubernetes.
 - [helm chart](https://helm.sh/) is quite useful to roll-forward/roll-back containers.
