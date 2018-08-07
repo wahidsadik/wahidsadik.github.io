@@ -17,6 +17,7 @@ I've been actively using Docker and Kubernetes (k8s) at work for a while now. He
 - Use a repository. You can use [Gitlab Docker Registry](https://docs.gitlab.com/ee/user/project/container_registry.html), [portus](http://port.us.org/), etc.
 - Use pipeline to build containers.
 - Use [Clair](https://github.com/coreos/clair) to find vulnabarilty in images.
+- Smaller docker images are good.
 
 ## Kubernetes
 
